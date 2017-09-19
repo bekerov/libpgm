@@ -65,7 +65,7 @@ def timer(inputfile, trials, datalength):
     totaltime /= trials
 
 
-    print json.dumps(ret.Vdata, indent=1)
+    print(json.dumps(ret.Vdata, indent=1))
     return totaltime
 #timer("/home/ccabot/Documents/bayesian networks project/bayesian/v3_bayesian/PGMlibrary/unittestdict.txt", 10)
 

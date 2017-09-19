@@ -82,4 +82,4 @@ def disc_bn_generator(numvertices, numoutcomes, indegree, outputpath):
         else:
             result["Vdata"][str(x)]["cprob"] = createinterval(result["Vdata"][str(x)]["numoutcomes"])
 
-    print >>op, json.dumps(result)
+    print(op, json.dumps(result))
